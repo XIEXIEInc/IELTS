@@ -37,8 +37,8 @@ jobs:
 
       - name: Build website
         run: npm run build
-env:
-  ATLAS_BASE: /
+        env:
+          ATLAS_BASE: /
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
